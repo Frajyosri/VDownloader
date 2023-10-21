@@ -1,0 +1,60 @@
+name: bf_video_downloader
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  youtube_downloader: ^0.0.6
+  flutter_youtube_downloader:
+  facebook_video_download: ^0.0.4
+  flutter_reels_downloader: ^0.0.1
+  open_file: 
+  quickalert: ^1.0.1
+  lottie: ^2.3.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - assets/images/3D_Square_with_Facebook_Logo.jpg
+      - assets/images/3D_Square_with_YouTube_Logo.jpg
+      - assets/images/2227.jpg
+      - assets/images/26642.jpg
+
+  #   - images/a_dot_ham.jpeg
+
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
